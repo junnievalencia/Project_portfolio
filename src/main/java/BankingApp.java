@@ -5,7 +5,7 @@ public class BankingApp {
     private HashMap<Integer, Account> accounts;
     private Account currentUser;
     private Scanner scanner;
-    
+
 
     public BankingApp() {
         accounts = new HashMap<>();
@@ -102,7 +102,6 @@ public class BankingApp {
             System.out.println("Recipient not found.");
         }
     }
-
     public static void main(String[] args) {
         BankingApp app = new BankingApp();
         app.start();
