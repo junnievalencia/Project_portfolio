@@ -5,6 +5,7 @@ public class BankingApp {
     private HashMap<Integer, Account> accounts;
     private Account currentUser;
     private Scanner scanner;
+    
 
     public BankingApp() {
         accounts = new HashMap<>();
